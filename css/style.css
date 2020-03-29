@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../records.jpeg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    height:45vh;
+}
+
+.artist_name{
+    position: relative;
+    left: 3%;
+    color: white;
+}
+
+img{
+    position: relative;
+    left: 3%;
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery_title{
+    position: absolute;
+    position: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+
+.gallery_title h1{
+    color: white;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration:none;
+    transition: all 0.5s;
+
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.alpha_table{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alpha_table tr th{
+    border: 1px solid white;
+    padding: 2.5px 8px;
+    background-color: transparent;
+    color: white;
+    text-decoration:none;
+    transition: all 0.5s;
+}
+
+.alpha_table tr th:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.alpha_table tr th a{
+   color: white;
+   transition: all 0.5s;
+   text-decoration: none;
+}
+
+.alpha_table tr th a:hover{
+    color: black;
+}
+
+.alpha_table tr th.active{
+    background-color: #fff;
+    color: #000;
+}
+.alpha_table tr th a.active{
+    color: black;
+}
+
